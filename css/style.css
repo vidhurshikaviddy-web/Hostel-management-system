@@ -77,3 +77,56 @@ body {
     margin-top: 15px;
     font-size: 30px;
 }
+
+
+
+
+/* Student Registration Form */
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    margin-top: 20px;
+}
+
+.card h2 {
+    color: #172554;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    color: #334155;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #2563eb;
+}
+
+form button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+form button:hover {
+    background: #172554;
+}
