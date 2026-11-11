@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    color: darkblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+td, th {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+
+/* Student Registration Page */
+
+.student-container {
+    width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.student-container h2 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 25px;
+}
+
+.student-container label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+.student-container input[type="text"],
+.student-container input[type="email"] {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.faculty-options {
+    margin-bottom: 20px;
+}
+
+.faculty-options label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.faculty-options input {
+    margin-right: 5px;
+}
+
+.student-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.student-container button:hover {
+    background-color: #2d5988;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.student-container a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #1e3a5f;
+    text-decoration: none;
+}
+
+
+/* Delete Button */
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
